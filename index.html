@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0f3d22" />
+
+  <!-- ===== SEO ===== -->
+  <title>Choyal Nursery | धार, गंधवानी की भरोसेमंद कृषि नर्सरी | सब्जी पौधे एवं सिंचाई सामग्री</title>
+  <meta name="description" content="Choyal Nursery - मिर्च, टमाटर, बैंगन, फूलगोभी, पत्तागोभी एवं हाइब्रिड सब्जियों के स्वस्थ पौधे और कृषि हार्डवेयर व सिंचाई सामग्री। नर्सरी से सीधे आपके खेत तक। Village Pipli, Gandhwani, Dhar, MP।" />
+  <meta name="keywords" content="Nursery Plants, Vegetable Plants, Chilli Plants, Tomato Plants, Agriculture Nursery, Vegetable Seedlings, Nursery in Dhar, Nursery in Gandhwani, Nursery in Madhya Pradesh, Agriculture Hardware, Irrigation Products, सब्जी पौधे, मिर्च के पौधे, टमाटर के पौधे" />
+  <meta name="author" content="Choyal Nursery" />
+  <link rel="canonical" href="https://choyalnursery.in/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Choyal Nursery | नर्सरी से सीधे आपके खेत तक" />
+  <meta property="og:description" content="किसानों के लिए गुणवत्तापूर्ण सब्जी, फल, फूल के पौधे एवं कृषि सिंचाई सामग्री।" />
+  <meta property="og:url" content="https://choyalnursery.in/" />
+  <meta property="og:image" content="https://choyalnursery.in/assets/images/hero.jpg" />
+  <meta property="og:locale" content="hi_IN" />
+
+  <link rel="icon" type="image/png" href="assets/images/logo.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Mukta:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <!-- JSON-LD Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "GardenStore",
+    "name": "Choyal Nursery",
+    "image": "https://choyalnursery.in/assets/images/hero.jpg",
+    "description": "वेजिटेबल नर्सरी पौधे, कृषि पौधे, फलदार पौधे, फूलों के पौधे एवं कृषि हार्डवेयर व सिंचाई सामग्री।",
+    "telephone": "+91-8435155366",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Village Pipli, Tehsil Gandhwani",
+      "addressLocality": "Dhar",
+      "addressRegion": "Madhya Pradesh",
+      "postalCode": "454446",
+      "addressCountry": "IN"
+    },
+    "url": "https://choyalnursery.in/",
+    "priceRange": "₹₹",
+    "openingHours": "Mo-Su 07:00-19:00"
+  }
+  </script>
+</head>
+<body>
+  <!-- CRA mount point (hidden; harmless for static hosting) -->
+  <div id="root" style="display:none"></div>
+
+  <!-- Scroll progress bar -->
+  <div id="progress" class="progress-bar" aria-hidden="true"></div>
+
+  <!-- ===================== LOADING SCREEN ===================== -->
+  <div id="loader" class="loader" aria-hidden="true">
+    <div class="loader__scene">
+      <div class="loader__pot"></div>
+      <div class="loader__soil"></div>
+      <div class="loader__stem"></div>
+      <span class="loader__leaf loader__leaf--l"></span>
+      <span class="loader__leaf loader__leaf--r"></span>
+      <span class="loader__seed"></span>
+    </div>
+    <div class="loader__brand">Choyal Nursery</div>
+    <div class="loader__tag">नर्सरी से सीधे आपके खेत तक</div>
+  </div>
+
+  <!-- Falling leaves layer (global) -->
+  <div id="leafField" class="leaf-field" aria-hidden="true"></div>
+
+  <!-- ===================== HEADER ===================== -->
+  <header id="header" class="header">
+    <div class="container header__inner">
+      <a href="#hero" class="brand">
+        <img src="assets/images/logo.png" alt="Choyal Nursery लोगो" class="brand__logo" width="48" height="48" />
+        <span class="brand__text">
+          <strong>Choyal Nursery</strong>
+          <small>नर्सरी से सीधे आपके खेत तक</small>
+        </span>
+      </a>
+      <div class="header__actions">
+        <a href="https://wa.me/918435155366?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%2C%20%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20Choyal%20Nursery%20%E0%A4%B8%E0%A5%87%20%E0%A4%9C%E0%A4%BE%E0%A4%A8%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%80%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F%E0%A5%A4" class="btn btn--wa btn--sm" target="_blank" rel="noopener">
+          <i class="fa-brands fa-whatsapp"></i><span class="hide-sm">WhatsApp</span>
+        </a>
+        <a href="tel:+918435155366" class="btn btn--accent btn--sm">
+          <i class="fa-solid fa-phone"></i><span class="hide-sm">कॉल करें</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section id="hero" class="hero">
+    <!-- Cinematic video-style background (crossfading Ken-Burns slides) -->
+    <div class="hero__slideshow" id="heroSlides">
+      <!-- To use a REAL video instead: replace the slides below with:
+           <video class="hero__video" autoplay muted loop playsinline poster="assets/images/hero.jpg">
+             <source src="assets/videos/nursery.mp4" type="video/mp4">
+           </video> -->
+      <div class="hero__slide" style="background-image:url('assets/images/hero.jpg')"></div>
+      <div class="hero__slide" style="background-image:url('assets/images/gal_greenhouse.jpg')"></div>
+      <div class="hero__slide" style="background-image:url('assets/images/gal_nursery.jpg')"></div>
+      <div class="hero__slide" style="background-image:url('assets/images/gal_trays.jpg')"></div>
+    </div>
+    <div class="hero__overlay"></div>
+    <div class="hero__particles" id="heroParticles" aria-hidden="true"></div>
+
+    <!-- decorative floating leaves -->
+    <span class="float-leaf fl-1"></span>
+    <span class="float-leaf fl-2"></span>
+    <span class="float-leaf fl-3"></span>
+    <span class="float-leaf fl-4"></span>
+
+    <div class="container hero__content">
+      <span class="hero__pill reveal"><i class="fa-solid fa-seedling"></i> भरोसेमंद कृषि नर्सरी • धार, मध्य प्रदेश</span>
+      <h1 class="hero__title" id="heroTitle">किसानों के लिए गुणवत्तापूर्ण <span class="grad-text">पौधे</span> एवं कृषि सामग्री</h1>
+      <p class="hero__sub reveal">मिर्च, टमाटर, बैंगन, फूलगोभी, पत्तागोभी एवं अन्य सब्जियों के स्वस्थ पौधे सीधे हमारी नर्सरी से आपके खेत तक।</p>
+      <div class="hero__cta reveal">
+        <a href="#products" class="btn btn--primary btn--lg btn--shine"><i class="fa-solid fa-cart-shopping"></i> अभी ऑर्डर करें</a>
+        <a href="tel:+918435155366" class="btn btn--accent btn--lg"><i class="fa-solid fa-phone"></i> हमें कॉल करें</a>
+        <a href="https://wa.me/918435155366?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%2C%20%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20Choyal%20Nursery%20%E0%A4%B8%E0%A5%87%20%E0%A4%91%E0%A4%B0%E0%A5%8D%E0%A4%A1%E0%A4%B0%20%E0%A4%95%E0%A4%B0%E0%A4%A8%E0%A4%BE%20%E0%A4%B9%E0%A5%88%E0%A5%A4" class="btn btn--wa btn--lg" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> WhatsApp पर संपर्क करें</a>
+      </div>
+      <div class="hero__trust reveal">
+        <span><i class="fa-solid fa-circle-check"></i> स्वस्थ पौधे</span>
+        <span><i class="fa-solid fa-truck-fast"></i> समय पर डिलीवरी</span>
+        <span><i class="fa-solid fa-indian-rupee-sign"></i> उचित मूल्य</span>
+      </div>
+    </div>
+
+    <a href="#stats" class="hero__scroll" aria-label="नीचे स्क्रॉल करें">
+      <span class="mouse"><span class="wheel"></span></span>
+      <small>स्क्रॉल करें</small>
+    </a>
+
+    <!-- wave divider -->
+    <div class="wave-divider" aria-hidden="true">
+      <svg viewBox="0 0 1440 110" preserveAspectRatio="none"><path d="M0,64 C240,110 480,10 720,40 C960,70 1200,120 1440,60 L1440,110 L0,110 Z"></path></svg>
+    </div>
+  </section>
+
+  <!-- ===================== STATS ===================== -->
+  <section id="stats" class="stats">
+    <div class="container stats__grid">
+      <div class="stat reveal"><div class="stat__num" data-count="12000" data-suffix="+">0</div><div class="stat__label">संतुष्ट किसान</div></div>
+      <div class="stat reveal"><div class="stat__num" data-count="50" data-suffix="+">0</div><div class="stat__label">पौधों की किस्में</div></div>
+      <div class="stat reveal"><div class="stat__num" data-count="15" data-suffix="+">0</div><div class="stat__label">वर्षों का अनुभव</div></div>
+      <div class="stat reveal"><div class="stat__num" data-count="98" data-suffix="%">0</div><div class="stat__label">जीवित रहने की दर</div></div>
+    </div>
+  </section>
+
+  <!-- ===================== MARQUEE ===================== -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track" id="marqueeTrack"></div>
+  </div>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section id="about" class="section about">
+    <div class="container about__grid">
+      <div class="about__media reveal reveal-left">
+        <img src="assets/images/about.jpg" alt="चोयल नर्सरी में स्वस्थ पौधों के साथ किसान" loading="lazy" />
+        <div class="about__badge"><i class="fa-solid fa-leaf"></i><span>100% स्वस्थ<br/>एवं प्राकृतिक</span></div>
+      </div>
+      <div class="about__text reveal reveal-right">
+        <span class="eyebrow"><i class="fa-solid fa-seedling"></i> हमारे बारे में</span>
+        <h2 class="section__title">गुणवत्ता और भरोसे की <span class="grad-text">हरी विरासत</span></h2>
+        <p>हम किसानों को उच्च गुणवत्ता वाले सब्जी पौधे, फलदार पौधे, फूलों के पौधे एवं कृषि सामग्री उपलब्ध कराते हैं। हमारा लक्ष्य स्वस्थ पौधों और बेहतर कृषि समाधान के माध्यम से किसानों की आय बढ़ाने में सहयोग करना है।</p>
+        <ul class="about__list">
+          <li><i class="fa-solid fa-circle-check"></i> रोग-मुक्त एवं मजबूत जड़ वाले पौधे</li>
+          <li><i class="fa-solid fa-circle-check"></i> हाइब्रिड एवं देसी किस्मों का विस्तृत चयन</li>
+          <li><i class="fa-solid fa-circle-check"></i> कृषि हार्डवेयर व सिंचाई सामग्री एक ही स्थान पर</li>
+        </ul>
+        <a href="#products" class="btn btn--primary btn--shine"><i class="fa-solid fa-arrow-right"></i> हमारे पौधे देखें</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== WHY CHOOSE US ===================== -->
+  <section id="why" class="section why">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow"><i class="fa-solid fa-award"></i> क्यों चुनें हमें</span>
+        <h2 class="section__title">किसानों की पहली पसंद, हर बार</h2>
+        <p class="section__lead">गुणवत्ता, भरोसा और बेहतर उत्पादन — यही हमारी पहचान है।</p>
+      </div>
+      <div class="why__grid">
+        <div class="why-card reveal"><div class="why-card__ic"><i class="fa-solid fa-seedling"></i></div><h3>स्वस्थ एवं मजबूत पौधे</h3><p>रोग-मुक्त, मजबूत जड़ों वाले पौधे जो खेत में तेजी से बढ़ते हैं।</p></div>
+        <div class="why-card reveal"><div class="why-card__ic"><i class="fa-solid fa-medal"></i></div><h3>उच्च गुणवत्ता</h3><p>हर पौधा गुणवत्ता जाँच के बाद ही आपके खेत तक भेजा जाता है।</p></div>
+        <div class="why-card reveal"><div class="why-card__ic"><i class="fa-solid fa-indian-rupee-sign"></i></div><h3>उचित मूल्य</h3><p>बेहतरीन गुणवत्ता, वो भी हर किसान के बजट में।</p></div>
+        <div class="why-card reveal"><div class="why-card__ic"><i class="fa-solid fa-handshake-angle"></i></div><h3>किसानों का भरोसा</h3><p>हजारों किसान वर्षों से हम पर भरोसा करते हैं।</p></div>
+        <div class="why-card reveal"><div class="why-card__ic"><i class="fa-solid fa-clock"></i></div><h3>समय पर उपलब्धता</h3><p>सीजन के अनुसार पौधे समय पर तैयार और उपलब्ध।</p></div>
+        <div class="why-card reveal"><div class="why-card__ic"><i class="fa-solid fa-chart-line"></i></div><h3>बेहतर उत्पादन</h3><p>स्वस्थ पौधे यानी अधिक पैदावार और बढ़ी हुई आय।</p></div>
+        <div class="why-card reveal"><div class="why-card__ic"><i class="fa-solid fa-user-graduate"></i></div><h3>विशेषज्ञ मार्गदर्शन</h3><p>खेती और देखभाल के लिए विशेषज्ञों की सलाह मुफ्त।</p></div>
+        <div class="why-card reveal"><div class="why-card__ic"><i class="fa-solid fa-store"></i></div><h3>एक ही स्थान पर सब कुछ</h3><p>पौधे और कृषि सामग्री दोनों एक ही जगह से।</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PRODUCTS ===================== -->
+  <section id="products" class="section products">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow"><i class="fa-solid fa-leaf"></i> हमारे पौधे</span>
+        <h2 class="section__title">स्वस्थ पौधे, बेहतरीन किस्में</h2>
+        <p class="section__lead">अपनी ज़रूरत के पौधे चुनें और सीधे ऑर्डर करें।</p>
+      </div>
+      <div class="filters reveal" id="plantFilters">
+        <button class="chip is-active" data-filter="all">सभी</button>
+        <button class="chip" data-filter="veg">सब्जी पौधे</button>
+        <button class="chip" data-filter="fruit">फलदार</button>
+        <button class="chip" data-filter="flower">फूल एवं सजावटी</button>
+      </div>
+      <div class="product-grid" id="plantGrid"><!-- JS injects cards --></div>
+    </div>
+  </section>
+
+  <!-- ===================== HARDWARE ===================== -->
+  <section id="hardware" class="section hardware">
+    <div class="wave-divider wave-divider--top wave-divider--dark" aria-hidden="true">
+      <svg viewBox="0 0 1440 110" preserveAspectRatio="none"><path d="M0,50 C240,0 480,100 720,70 C960,40 1200,0 1440,55 L1440,0 L0,0 Z"></path></svg>
+    </div>
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow eyebrow--light"><i class="fa-solid fa-screwdriver-wrench"></i> कृषि उपकरण</span>
+        <h2 class="section__title section__title--light">कृषि हार्डवेयर एवं सिंचाई सामग्री</h2>
+        <p class="section__lead section__lead--light">PVC व HDPE पाइप, ड्रिप सिस्टम, फिटिंग्स, वाल्व, स्प्रेयर और कृषि उपकरण — सब एक ही जगह।</p>
+      </div>
+      <div class="product-grid" id="hardwareGrid"><!-- JS injects cards --></div>
+    </div>
+    <div class="wave-divider wave-divider--dark" aria-hidden="true">
+      <svg viewBox="0 0 1440 110" preserveAspectRatio="none"><path d="M0,64 C240,110 480,10 720,40 C960,70 1200,120 1440,60 L1440,110 L0,110 Z"></path></svg>
+    </div>
+  </section>
+
+  <!-- ===================== PROCESS ===================== -->
+  <section id="process" class="section process">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow"><i class="fa-solid fa-list-check"></i> आसान प्रक्रिया</span>
+        <h2 class="section__title">ऑर्डर कैसे करें</h2>
+        <p class="section__lead">सिर्फ़ 4 आसान चरणों में पौधे आपके खेत तक।</p>
+      </div>
+      <div class="timeline" id="timeline">
+        <div class="tstep reveal"><div class="tstep__num">1</div><div class="tstep__ic"><i class="fa-solid fa-leaf"></i></div><h3>पौधे चुनें</h3><p>अपनी फसल के अनुसार मनपसंद पौधे चुनें।</p></div>
+        <div class="tstep reveal"><div class="tstep__num">2</div><div class="tstep__ic"><i class="fa-solid fa-hashtag"></i></div><h3>मात्रा दर्ज करें</h3><p>आवश्यक पौधों की संख्या दर्ज करें।</p></div>
+        <div class="tstep reveal"><div class="tstep__num">3</div><div class="tstep__ic"><i class="fa-solid fa-phone-volume"></i></div><h3>ऑर्डर करें</h3><p>कॉल या WhatsApp पर ऑर्डर पक्का करें।</p></div>
+        <div class="tstep reveal"><div class="tstep__num">4</div><div class="tstep__ic"><i class="fa-solid fa-truck-fast"></i></div><h3>डिलीवरी प्राप्त करें</h3><p>स्वस्थ पौधे सीधे आपके खेत तक।</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== GALLERY ===================== -->
+  <section id="gallery" class="section gallery">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow"><i class="fa-solid fa-images"></i> गैलरी</span>
+        <h2 class="section__title">हमारी नर्सरी की झलक</h2>
+        <p class="section__lead">स्वस्थ पौधे, खेत और संतुष्ट किसानों की तस्वीरें।</p>
+      </div>
+      <div class="masonry" id="masonry">
+        <figure class="masonry__item reveal" data-img="assets/images/gal_nursery.jpg"><img src="assets/images/gal_nursery.jpg" alt="चोयल नर्सरी का विस्तृत दृश्य" loading="lazy"><figcaption>हमारी नर्सरी</figcaption></figure>
+        <figure class="masonry__item reveal" data-img="assets/images/gal_trays.jpg"><img src="assets/images/gal_trays.jpg" alt="सब्जी पौधों की ट्रे" loading="lazy"><figcaption>स्वस्थ सीडलिंग</figcaption></figure>
+        <figure class="masonry__item reveal" data-img="assets/images/gal_chilli.jpg"><img src="assets/images/gal_chilli.jpg" alt="मिर्च के पौधों का खेत" loading="lazy"><figcaption>मिर्च के पौधे</figcaption></figure>
+        <figure class="masonry__item reveal" data-img="assets/images/gal_greenhouse.jpg"><img src="assets/images/gal_greenhouse.jpg" alt="ग्रीनहाउस में टमाटर के पौधे" loading="lazy"><figcaption>टमाटर ग्रीनहाउस</figcaption></figure>
+        <figure class="masonry__item reveal" data-img="assets/images/gal_irrigation.jpg"><img src="assets/images/gal_irrigation.jpg" alt="ड्रिप सिंचाई प्रणाली" loading="lazy"><figcaption>सिंचाई समाधान</figcaption></figure>
+        <figure class="masonry__item reveal" data-img="assets/images/gal_delivery.jpg"><img src="assets/images/gal_delivery.jpg" alt="किसान को पौधों की डिलीवरी" loading="lazy"><figcaption>खेत तक डिलीवरी</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TESTIMONIALS ===================== -->
+  <section id="testimonials" class="section testimonials">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow"><i class="fa-solid fa-comment-dots"></i> किसानों की राय</span>
+        <h2 class="section__title">हमारे किसानों का भरोसा</h2>
+      </div>
+      <div class="tslider reveal">
+        <div class="tslider__track" id="tTrack">
+          <article class="tcard"><div class="tcard__stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div><p>"चोयल नर्सरी के मिर्च के पौधे बहुत मजबूत निकले। इस साल मेरी पैदावार पहले से कहीं ज़्यादा हुई।"</p><div class="tcard__by"><span class="tcard__av">रp</span><div><strong>रमेश पटेल</strong><small>धार, मध्य प्रदेश</small></div></div></article>
+          <article class="tcard"><div class="tcard__stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div><p>"समय पर पौधे मेरे खेत तक पहुँचे और सभी स्वस्थ थे। सेवा बहुत अच्छी है।"</p><div class="tcard__by"><span class="tcard__av">सु</span><div><strong>सुनीता बाई</strong><small>गंधवानी, धार</small></div></div></article>
+          <article class="tcard"><div class="tcard__stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div><p>"टमाटर और बैंगन के हाइब्रिड पौधे शानदार हैं। दाम उचित और गुणवत्ता बेहतरीन।"</p><div class="tcard__by"><span class="tcard__av">मh</span><div><strong>महेश चौधरी</strong><small>इंदौर</small></div></div></article>
+          <article class="tcard"><div class="tcard__stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div><p>"ड्रिप पाइप और सिंचाई सामग्री एक ही जगह मिल गई। पैसा और समय दोनों बचे।"</p><div class="tcard__by"><span class="tcard__av">दि</span><div><strong>दिनेश राठौर</strong><small>झाबुआ</small></div></div></article>
+        </div>
+        <div class="tslider__nav">
+          <button id="tPrev" aria-label="पिछला"><i class="fa-solid fa-arrow-left"></i></button>
+          <button id="tNext" aria-label="अगला"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FAQ ===================== -->
+  <section id="faq" class="section faq">
+    <div class="container faq__wrap">
+      <div class="section__head reveal">
+        <span class="eyebrow"><i class="fa-solid fa-circle-question"></i> सामान्य प्रश्न</span>
+        <h2 class="section__title">अक्सर पूछे जाने वाले सवाल</h2>
+      </div>
+      <div class="acc" id="acc">
+        <div class="acc__item reveal"><button class="acc__q">कौन-कौन से पौधे उपलब्ध हैं? <i class="fa-solid fa-plus"></i></button><div class="acc__a"><p>मिर्च, टमाटर, बैंगन, फूलगोभी, पत्तागोभी, लौकी, खीरा सहित हाइब्रिड सब्जी पौधे, फलदार, फूल एवं सजावटी पौधे उपलब्ध हैं।</p></div></div>
+        <div class="acc__item reveal"><button class="acc__q">क्या होम/खेत डिलीवरी उपलब्ध है? <i class="fa-solid fa-plus"></i></button><div class="acc__a"><p>जी हाँ, क्षेत्र के अनुसार पौधे सीधे आपके खेत तक पहुँचाए जाते हैं। अधिक जानकारी के लिए कॉल करें।</p></div></div>
+        <div class="acc__item reveal"><button class="acc__q">न्यूनतम ऑर्डर मात्रा क्या है? <i class="fa-solid fa-plus"></i></button><div class="acc__a"><p>सामान्यतः न्यूनतम 100 पौधों से ऑर्डर लिया जाता है। किस्म के अनुसार यह भिन्न हो सकता है।</p></div></div>
+        <div class="acc__item reveal"><button class="acc__q">पौधे कितने दिनों के होते हैं? <i class="fa-solid fa-plus"></i></button><div class="acc__a"><p>अधिकांश सब्जी पौधे 25–35 दिनों के, रोपाई के लिए पूरी तरह तैयार अवस्था में दिए जाते हैं।</p></div></div>
+        <div class="acc__item reveal"><button class="acc__q">क्या कृषि सामग्री भी उपलब्ध है? <i class="fa-solid fa-plus"></i></button><div class="acc__a"><p>जी हाँ, PVC/HDPE पाइप, ड्रिप सिस्टम, फिटिंग्स, वाल्व, स्प्रेयर एवं कृषि उपकरण भी उपलब्ध हैं।</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow"><i class="fa-solid fa-headset"></i> संपर्क करें</span>
+        <h2 class="section__title">आज ही ऑर्डर करें</h2>
+        <p class="section__lead">कॉल, WhatsApp या फॉर्म के माध्यम से हमसे जुड़ें।</p>
+      </div>
+      <div class="contact__grid">
+        <div class="contact__info reveal reveal-left">
+          <div class="info-card">
+            <h3><i class="fa-solid fa-location-dot"></i> पता</h3>
+            <p>Choyal Nursery<br/>Village Pipli, Tehsil Gandhwani,<br/>District Dhar, Madhya Pradesh - 454446</p>
+          </div>
+          <div class="info-card">
+            <h3><i class="fa-solid fa-phone"></i> फ़ोन</h3>
+            <p><a href="tel:+918435155366">+91-8435155366</a><br/><a href="tel:+919981638930">+91-9981638930</a></p>
+          </div>
+          <div class="info-card">
+            <h3><i class="fa-solid fa-clock"></i> समय</h3>
+            <p>सोम – रवि : सुबह 7:00 – शाम 7:00</p>
+          </div>
+          <div class="contact__btns">
+            <a href="tel:+918435155366" class="btn btn--accent"><i class="fa-solid fa-phone"></i> कॉल करें</a>
+            <a href="https://wa.me/918435155366?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%2C%20%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20Choyal%20Nursery%20%E0%A4%B8%E0%A5%87%20%E0%A4%91%E0%A4%B0%E0%A5%8D%E0%A4%A1%E0%A4%B0%20%E0%A4%95%E0%A4%B0%E0%A4%A8%E0%A4%BE%20%E0%A4%B9%E0%A5%88%E0%A5%A4" target="_blank" rel="noopener" class="btn btn--wa"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+          </div>
+        </div>
+
+        <form class="contact__form reveal reveal-right" id="contactForm">
+          <h3>संदेश भेजें</h3>
+          <div class="field"><label for="cName">नाम</label><input id="cName" type="text" placeholder="आपका नाम" required /></div>
+          <div class="field"><label for="cPhone">मोबाइल नंबर</label><input id="cPhone" type="tel" placeholder="10 अंकों का नंबर" required /></div>
+          <div class="field"><label for="cMsg">आपका संदेश</label><textarea id="cMsg" rows="4" placeholder="कौन से पौधे चाहिए, कितनी मात्रा में..."></textarea></div>
+          <button type="submit" class="btn btn--primary btn--block btn--shine"><i class="fa-brands fa-whatsapp"></i> WhatsApp पर भेजें</button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
+
+      <div class="contact__map reveal">
+        <iframe
+          title="Choyal Nursery स्थान - Pipli, Gandhwani, Dhar"
+          src="https://www.google.com/maps?q=Pipli%2C%20Gandhwani%2C%20Dhar%2C%20Madhya%20Pradesh%20454446&output=embed"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="#hero" class="brand brand--footer">
+          <img src="assets/images/logo.png" alt="Choyal Nursery लोगो" width="44" height="44" />
+          <span class="brand__text"><strong>Choyal Nursery</strong><small>नर्सरी से सीधे आपके खेत तक</small></span>
+        </a>
+        <p>किसानों के लिए गुणवत्तापूर्ण सब्जी, फल, फूल के पौधे एवं कृषि सिंचाई सामग्री।</p>
+        <div class="socials">
+          <a href="https://wa.me/918435155366" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="tel:+918435155366" aria-label="Call"><i class="fa-solid fa-phone"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4>त्वरित लिंक</h4>
+        <a href="#about">हमारे बारे में</a>
+        <a href="#products">हमारे पौधे</a>
+        <a href="#hardware">कृषि सामग्री</a>
+        <a href="#gallery">गैलरी</a>
+        <a href="#faq">सामान्य प्रश्न</a>
+      </div>
+      <div class="footer__col">
+        <h4>संपर्क</h4>
+        <a href="tel:+918435155366"><i class="fa-solid fa-phone"></i> +91-8435155366</a>
+        <a href="tel:+919981638930"><i class="fa-solid fa-phone"></i> +91-9981638930</a>
+        <a href="https://wa.me/918435155366" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+        <p class="footer__addr"><i class="fa-solid fa-location-dot"></i> Village Pipli, Gandhwani, Dhar, MP - 454446</p>
+      </div>
+    </div>
+    <div class="footer__bar">
+      <div class="container">© <span id="year"></span> Choyal Nursery • choyalnursery.in • सर्वाधिकार सुरक्षित</div>
+    </div>
+  </footer>
+
+  <!-- ===================== FLOATING WHATSAPP ===================== -->
+  <a href="https://wa.me/918435155366?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%2C%20%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20Choyal%20Nursery%20%E0%A4%B8%E0%A5%87%20%E0%A4%91%E0%A4%B0%E0%A5%8D%E0%A4%A1%E0%A4%B0%20%E0%A4%95%E0%A4%B0%E0%A4%A8%E0%A4%BE%20%E0%A4%B9%E0%A5%88%E0%A5%A4" class="fab-wa" target="_blank" rel="noopener" aria-label="WhatsApp पर संपर्क करें">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Back to top -->
+  <button id="toTop" class="to-top" aria-label="ऊपर जाएँ"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <!-- ===================== STICKY CALL CTA ===================== -->
+  <div class="call-cta">
+    <div class="call-cta__popup" id="callPopup">
+      <a href="tel:+918435155366"><i class="fa-solid fa-phone"></i> +91-8435155366</a>
+      <a href="tel:+919981638930"><i class="fa-solid fa-phone"></i> +91-9981638930</a>
+    </div>
+    <button class="call-cta__btn" id="callBtn">
+      <span class="call-cta__pulse"></span>
+      <i class="fa-solid fa-phone"></i> अभी कॉल करें
+    </button>
+  </div>
+
+  <!-- ===================== LIGHTBOX ===================== -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__close" id="lbClose" aria-label="बंद करें"><i class="fa-solid fa-xmark"></i></button>
+    <img id="lbImg" src="" alt="गैलरी छवि" />
+  </div>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
